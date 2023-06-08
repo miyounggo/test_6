@@ -4,6 +4,7 @@
         color: white;
         margin:0;
         font-size:  180%;
+        margin-bottom: 20px;
         
          
       
@@ -12,11 +13,11 @@
    
     h3{
       text-align:center;
-      font-size: 180%;
+      font-size: 100%;
       border-bottom: 1px solid #333;
       max-width: 90%;
       margin: 0 auto;
-      padding: 20%;
+      
       box-sizing: border-box;
       color: rgb(7, 7, 220);
 
@@ -48,10 +49,64 @@
       color: rgb(244, 110, 7);
     }
 
+    .modal {
+      width: 83.333%;
+      height: 400px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: white;
+    
+    
+    }
+    p{
+      text-align: center;
+      color: rgb(22, 32, 231);
+      font-size: 10px;
+      
+    }
+    
+    .photo{
+      
+      border: 0;
+      text-align: center;
+      box-sizing:40%;
+    
+    
+    }
+
+    #close_modal{
+      position: absolute;
+      left: 43%;
+      bottom: 5%;
+      transform:translate (-50%,);
+      
+    }
+    
+
+
+
+
+
+
+
+
 
 
 
   }
+
+
+
+
+
+
+
+
+
+
+
 /*선택자 종류
 body{ 
 background-color: orange
